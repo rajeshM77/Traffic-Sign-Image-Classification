@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# ML — large files, never commit these
+backend/data/
+backend/models/*.h5
+backend/models/*.keras
+
+# Keep the models folder itself but not the large files
+!backend/models/.gitkeep
+!backend/models/class_names.json
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Backend env
+backend/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
