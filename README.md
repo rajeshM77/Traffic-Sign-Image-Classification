@@ -56,11 +56,12 @@ https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign
 
 Extract into `backend/data/gtsrb/` so the structure is:
 
+```
 backend/data/gtsrb/
 ├── Train/   (43 subfolders 0–42)
 ├── Test/
 └── Meta/
-
+```
 
 ### 3. Backend setup
 ```bash
